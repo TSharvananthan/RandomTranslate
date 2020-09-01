@@ -6,7 +6,7 @@ Translate randomly
 ```
 git clone https://github.com/TSharvananthan/RandomTranslate
 
-cd RandomTranslates
+cd RandomTranslate
 python3 backend.py
 ```
 
