@@ -1,0 +1,32 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px 10px 100px;
+}
+
+.text {
+  font-weight: lighter;
+  color: black;
+}
+
+.text-input {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 20px 20px 20px 20px;
+  resize: none;
+}
+
+.cycles {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 20px 20px 20px 20px;
+}
+
+.submit {
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+}
+
+.result {
+  text-align: center;
+}
