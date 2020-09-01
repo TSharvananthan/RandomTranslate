@@ -15,8 +15,10 @@ def home():
 @app.route("/translate/", methods=["POST"])
 def translate():
     form_data = dict(flask.request.form)
-    text_input, cycles = form_data['text-input'], form_data['cycles']
+    text_input, cycles = form_data['text-input'].strip(), form_data['cycles']
     text_dict = random_translate(text_input, int(cycles))
+
+    print(text_input, text_dict)
 
     return flask.render_template("result.html", max=cycles, text_dict=text_dict, visibility="visible")
 
